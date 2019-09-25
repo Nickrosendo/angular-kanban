@@ -1,0 +1,12 @@
+.board{
+  &--container {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    height: 100vh;
+  }
+  &--list {
+    width: 30vw;
+    height: 100vh;
+  }
+}

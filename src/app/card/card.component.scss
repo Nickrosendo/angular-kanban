@@ -1,0 +1,10 @@
+.card {
+  &--container {
+    background: #aaa;
+    border:1px solid #000;
+    border-radius: 8px;
+    padding: 8px;
+    min-height: 60px;
+    width: 100%;
+  }
+}

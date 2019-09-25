@@ -1,0 +1,8 @@
+<div class="list--container">
+  <div class="list--header">
+    <button class="list--header--button" (click)="addCard()">add card</button>
+  </div>
+  <ul class="list--items"> 
+    <app-card class="list--card" *ngFor="let card of cards"></app-card>
+  </ul>
+</div>

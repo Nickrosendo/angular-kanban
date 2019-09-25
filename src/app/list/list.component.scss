@@ -1,0 +1,38 @@
+.list {
+  &--container {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  &--header {
+    height: 50px;
+    background: #ccc;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 8px;
+
+    &--button {
+      border-radius: 8px;
+      background: #fff;
+      padding: 8px 16px;
+      border: none;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+
+  &--items {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 8px;
+    height: 90%;
+  }
+
+  &--card {
+    width: calc(100% - 16px);
+  }
+}
